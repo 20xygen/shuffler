@@ -12,8 +12,11 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Scanner scanner = new Scanner(System.in);
-        String[] array = scanner.nextLine().split(" ");
-        operate(array); // чтобы сменить решим на консольный, замените array на args и закомментируйте строчки 14 и 15
+        while(true){
+            String[] array = scanner.nextLine().split(" ");
+            operate(array); // чтобы сменить решим на консольный, замените array на args и закомментируйте строчки 14 и 15
+        }
+
     }
 
     public static void operate(String[] args){
